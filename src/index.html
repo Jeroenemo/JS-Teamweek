@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TITLE</title>
+  <title></title>
 </head>
+
 <body>
+  <div class="container">
+    <form>
+      <div class="row">
+        <div class="col-3">
+          <label for="name">
+              Please enter your name:
+              <input type="text" id="name" name="name" class="form-control">
+            </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <label for="age">
+              Please enter your age:
+              <input type="number" id="age" name="age" class="form-control">
+            </label>
+        </div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-3">
+          <select class="form-control" id="gender">
+              <option disabled selected>Workout tailored for:</option>
+              <option>Men</option>
+              <option>Women</option>
+              <option>Other</option>
+            </select>
+        </div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-3">
+          <select class="form-control" id="level">
+              <option disabled selected>Choose your skill level</option>
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Advanced</option>
+            </select>
+        </div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-3">
+          <label for="weight">
+              Please enter your weight:
+              <input type="number" id="weight" name="weight" class="form-control">
+            </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <label for="focus">
+              Please select a focus for your journey:
+              <input type="text" id="focus" name="focus" class="form-control">
+            </label>
+        </div>
+      </div>
+      <button id="submit" type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
 </body>
+
 </html>
