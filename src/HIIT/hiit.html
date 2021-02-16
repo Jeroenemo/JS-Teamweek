@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>HIIT Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="header">
+  <h1 class="header-logo">HIIT Timer</h1>
+</div>
+<main class="main">
+  <h2 class="heading">Welcome</h2>
+
+  <form class="form" method="post">
+    <label class="form-label" for="exercise">Exercise:</label>
+    <input class="form-input" type="number" name="exercise" id="exercise" value="45">
+    <span class="units">(seconds)</span>
+
+    <label class="form-label" for="rest">Rest:</label>
+    <input class="form-input" type="number" name="rest" id="rest" value="15">
+    <span class="units">(seconds)</span>
+
+    <label class="form-label" for="sets">Sets:</label>
+    <input class="form-input" type="number" name="sets" id="sets" value="6">
+            
+    <div class="form-button-container">
+      <button class="button" type="submit">Start!</button>
+    </div>
+  </form>
+  <div class="exercise">
+    <h2 class="heading">Exercise</h2>
+
+    <span class="timer" id="timer">{{ exercise }}s</span>
+    <progress 
+      max="{{ exercise }}" 
+      value="{{ exercise }}" 
+      class="progress progress--set" 
+      id="progressBar"
+    ></progress>
+  </div>
+  <div class="rest">
+    <h2 class="heading">Rest</h2>
+
+    <span class="timer" id="timer">{{ rest }}s</span>
+    <progress 
+      max="{{ rest }}" 
+      value="{{ rest }}" 
+      class="progress progress--rest" 
+      id="progressBar"
+    ></progress>
+  </div>
+  <div>
+    <h2 class="heading">Congratulations</h2>
+    <span class="u-center-text">You've completed {{ sets }} sets.</span>
+		<form class="form" method="post">
+      <div class="form__button-container">
+        <button class="button" type="submit">Back</button>
+      </div>
+		</form>
+  </div>
+    <!-- <script src="hiit.js"></script> -->
+</main>
+</body>
