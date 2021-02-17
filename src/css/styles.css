@@ -5,3 +5,61 @@ img {
 .exercise-description{
   display: none;
 }
+
+.btn {
+  width: 33%;
+}
+#category-button {
+  border-color: #b33742;
+  color: #b33742;
+}
+#category-button:hover {
+  color: white;
+  border-color: #b33742;
+  background-color: #b33742;
+}
+#category-button:focus {
+  box-shadow: 0 0 0 0.2rem #b33742;
+}
+#category-button:active {
+  color: white;
+  background-color: #892931;
+}
+#muscle-button {
+  border-color: #37b39c;
+  color: #37b39c;
+}
+#muscle-button:hover {
+  color: white;
+  border-color: #37b39c;
+  background-color: #37b39c;
+}
+#muscle-button:focus {
+  box-shadow: 0 0 0 0.2rem #37b39c;
+}
+#muscle-button:active {
+  color: white;
+  background-color: #2b8c7a;
+}
+#hiit-button {
+  border-color: #7fb337;
+  color: #7fb337;
+}
+#hiit-button:hover {
+  color: white;
+  border-color: #7fb337;
+  background-color: #7fb337;
+}
+#hiit-button:focus {
+  box-shadow: 0 0 0 0.2rem #7fb337;
+}
+#hiit-button:active {
+  color: white;
+  background-color: #648c2b;
+}
+
+/* .btn-outline-success:active {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+} */

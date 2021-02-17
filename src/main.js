@@ -2,6 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
+import './HIIT/hiit-styles.css';
 import ExerciseService from './services/exercise-service.js';
 
 
