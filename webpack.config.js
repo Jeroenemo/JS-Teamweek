@@ -20,6 +20,16 @@ module.exports = {
       template: './src/index.html',
       inject: 'body'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'dropdownExercise.html',
+      template: './src/dropdownExercise.html',
+      inject: 'body'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'hiit.html',
+      template: './src/HIIT/hiit.html',
+      inject: 'body'
+    }),
     new Dotenv()
   ],
   module: {
