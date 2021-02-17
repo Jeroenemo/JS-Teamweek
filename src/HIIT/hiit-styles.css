@@ -131,3 +131,9 @@ html {
 .progress--rest::-moz-progress-bar {
   background-color: mediumseagreen;
 }
+
+.small-btns{
+  margin-left: 2%;
+  width: 30%;
+  font-size: 1em;
+}
