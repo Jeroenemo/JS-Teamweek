@@ -1,6 +1,6 @@
 export default class ExerciseService {
   static getExercise(target) {
-    return fetch(`https://wger.de/api/v2/exercise/?language=2${target}`)
+    return fetch(`https://wger.de/api/v2/exerciseinfo/?language=2&limit=300${target}`)
       .then(function(response) {
         if (!response.ok) {
           throw Error(response.status);
