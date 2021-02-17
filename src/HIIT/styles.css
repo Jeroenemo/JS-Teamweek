@@ -1,0 +1,133 @@
+#exercise-div,
+#rest-div,
+#complete-div {
+  display: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.u-center-text {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1.75rem;
+}
+
+.header-logo {
+  font-size: 1rem;
+}
+
+.heading {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.timer {
+  display: block;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.main {
+  padding: 0 1.25rem;
+}
+
+.form {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1.5rem;
+  column-gap: 0.75rem;
+  align-items: center;
+  width: auto;
+  font-size: 0.9rem;
+}
+
+.form-button-container {
+  display: grid;
+  justify-content: center;
+  grid-column: 1/4;
+}
+
+.form-input {
+  max-width: 6rem;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding: 7px 10px;
+  font-size: inherit;
+}
+
+.form-label {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.button {
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border: 1px solid black;
+  background-color: lightblue;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(85, 192, 228);
+}
+
+.progress {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid gainsboro;
+  background-image: none;
+  -webkit-appearance: none;
+}
+
+.progress,
+.progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+.progress--set::-webkit-progress-value {
+  background-color: tomato;
+}
+
+.progress-set::-moz-progress-bar {
+  background-color: tomato;
+}
+
+.progress--rest::-webkit-progress-value {
+  background-color: mediumseagreen;
+}
+
+.progress--rest::-moz-progress-bar {
+  background-color: mediumseagreen;
+}
