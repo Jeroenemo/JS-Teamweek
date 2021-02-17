@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <head>
-  <link href="styles.css" rel="stylesheet" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HIIT Timer</title>
 </head>
@@ -11,7 +10,7 @@
     <div id="setup">
       <h2 class="heading">Welcome</h2>
 
-      <form class="form" method="post">
+      <form class="form">
         <label class="form-label" for="exercise">Exercise:</label>
         <input class="form-input" type="number" name="exercise" id="exercise" value="45"/>
         <span class="units">(seconds)</span>
@@ -53,7 +52,7 @@
     <div id="complete-div">
 
       <h2 class="heading">Congratulations</h2>
-      <span class="u-center-text">You've completed {{ sets }} sets.</span>
+      <span class="u-center-text"></span>
       <form class="form" method="post">
         <div class="form-button-container">
           <button class="button" type="submit">Back</button>
