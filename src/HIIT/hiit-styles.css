@@ -1,12 +1,8 @@
-#exercise-div,
-#rest-div,
-#complete-div {
+#exercise-div, #rest-div, #complete-div {
   display: none;
 }
 
-*,
-*::after,
-*::before {
+*, *::after, *::before {
   box-sizing: inherit;
 }
 
@@ -111,8 +107,7 @@ html {
   -webkit-appearance: none;
 }
 
-.progress,
-.progress::-webkit-progress-bar {
+.progress, .progress::-webkit-progress-bar {
   background-color: white;
 }
 
@@ -132,7 +127,7 @@ html {
   background-color: mediumseagreen;
 }
 
-.small-btns{
+.small-btns {
   margin-left: 2%;
   width: 30%;
   font-size: 1em;
