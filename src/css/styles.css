@@ -1,13 +1,50 @@
+body {
+  margin: auto;
+}
+
 .workout-image {
-  width: 25%;
+  max-width: 100%;
+  max-height: 400px;
 }
 
 .exercise-description {
+  flex: 1;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-category-select {
+  flex: 1;
+}
+
+.flex-exercise-list {
+  flex: 1;
+}
+
+#exercise-header {
   display: none;
 }
 
-.btn {
-  width: 30%;
+.btn-lg {
+  width: 92.5%;
+}
+
+.flex-buttons {
+  display: flex;
+}
+
+.flex-button-1 {
+  flex: 1;
+}
+
+.flex-button-2 {
+  flex: 1;
+}
+
+.flex-button-3 {
+  flex: 1;
 }
 
 #category-button {
@@ -659,18 +696,20 @@
 }
 
 .flex_PaperDoll {
-  flex: 2;
+  flex: 4;
 }
 
 .flex_Output {
-  flex: 1;
+  flex: 2;
 }
 
 .container {
-  min-width: 1200px;
+  min-width: 1500px;
+  max-width: 1600px;
+  margin: auto;
 }
 
 .desc {
-  flex: 1;
-  margin-right: 50px;
+  flex: 2;
+  /* margin-right: 50px; */
 }
