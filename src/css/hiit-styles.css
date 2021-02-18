@@ -2,9 +2,9 @@
   display: none;
 }
 
-*, *::after, *::before {
+/* *, *::after, *::before {
   box-sizing: inherit;
-}
+} */
 
 html {
   font-family: "Lato", Helvetica, sans-serif;
@@ -130,5 +130,5 @@ html {
 .small-btns {
   margin-left: 2%;
   width: 30%;
-  font-size: 1em;
+  font-size: 1.3em;
 }
