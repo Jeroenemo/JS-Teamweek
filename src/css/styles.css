@@ -114,6 +114,8 @@ body {
   color: blue;
   cursor: pointer;
 }
+
+
 /* .btn-outline-success:active {
   color: #fff;
   background-color: #28a745;
@@ -142,7 +144,7 @@ body {
 
 .imgFemale_upperBack {
   position: absolute;
-  left: 527px;
+  left: 687px;
   top: 288px;
   transition: opacity .2s;
   opacity: 0;
@@ -154,7 +156,7 @@ body {
 
 .imgFemale_lowerBack {
   position: absolute;
-  left: 538px;
+  left: 698px;
   top: 393px;
   transition: opacity .2s;
   opacity: 0;
@@ -166,7 +168,7 @@ body {
 
 .imgFemale_obliques_r {
   position: absolute;
-  left: 188px;
+  left: 348px;
   top: 341px;
   transition: opacity .2s;
   opacity: 0;
@@ -178,7 +180,7 @@ body {
 
 .imgFemale_obliques_l {
   position: absolute;
-  left: 133px;
+  left: 293px;
   top: 341px;
   transition: opacity .2s;
   opacity: 0;
@@ -190,7 +192,7 @@ body {
 
 .imgFemale_lats_r {
   position: absolute;
-  left: 570px;
+  left: 730px;
   top: 350.5px;
   transition: opacity .2s;
   opacity: 0;
@@ -216,7 +218,7 @@ body {
 
 .imgFemale_bicep_r {
   position: absolute;
-  left: 233px;
+  left: 393px;
   top: 338px;
   transition: opacity .2s;
   opacity: 0;
@@ -228,7 +230,7 @@ body {
 
 .imgFemale_bicep_l {
   position: absolute;
-  left: 107px;
+  left: 267px;
   top: 338px;
   transition: opacity .2s;
   opacity: 0;
@@ -240,7 +242,7 @@ body {
 
 .imgFemale_triceps_r {
   position: absolute;
-  left: 619px;
+  left: 779px;
   top: 334px;
   transition: opacity .2s;
   opacity: 0;
@@ -252,7 +254,7 @@ body {
 
 .imgFemale_triceps_l {
   position: absolute;
-  left: 485px;
+  left: 645px;
   top: 334px;
   transition: opacity .2s;
   opacity: 0;
@@ -264,7 +266,7 @@ body {
 
 .imgFemale_pecs {
   position: absolute;
-  left: 126.5px;
+  left: 286.5px;
   top: 309.5px;
   transition: opacity .2s;
   opacity: 0;
@@ -276,7 +278,7 @@ body {
 
 .imgFemale_quads {
   position: absolute;
-  left: 127px;
+  left: 287px;
   top: 455.5px;
   transition: opacity .2s;
   opacity: 0;
@@ -288,7 +290,7 @@ body {
 
 .imgFemale_hams {
   position: absolute;
-  left: 507.5px;
+  left: 667.5px;
   top: 491px;
   transition: opacity .2s;
   opacity: 0;
@@ -300,7 +302,7 @@ body {
 
 .imgFemale_abs {
   position: absolute;
-  left: 159px;
+  left: 319px;
   top: 361px;
   transition: opacity .2s;
   opacity: 0;
@@ -313,7 +315,7 @@ body {
 
 .imgFemale_calves {
   position: absolute;
-  left: 507.5px;
+  left: 667.5px;
   top: 617px;
   transition: opacity .2s;
   opacity: 0;
@@ -325,7 +327,7 @@ body {
 
 .imgFemale_deltoidAnt_r {
   position: absolute;
-  left: 218px;
+  left: 378px;
   top: 301px;
   transition: opacity .2s;
   opacity: 0;
@@ -337,7 +339,7 @@ body {
 
 .imgFemale_deltoidAnt_l {
   position: absolute;
-  left: 113px;
+  left: 273px;
   top: 301px;
   transition: opacity .2s;
   opacity: 0;
@@ -349,7 +351,7 @@ body {
 
 .imgFemale_deltoidPost_r {
   position: absolute;
-  left: 603px;
+  left: 763px;
   top: 294px;
   transition: opacity .2s;
   opacity: 0;
@@ -361,7 +363,7 @@ body {
 
 .imgFemale_deltoidPost_l {
   position: absolute;
-  left: 490px;
+  left: 650px;
   top: 294px;
   transition: opacity .2s;
   opacity: 0;
@@ -373,7 +375,7 @@ body {
 
 .imgFemale_trapsAnt {
   position: absolute;
-  left: 147px;
+  left: 307px;
   top: 286px;
   transition: opacity .2s;
   opacity: 0;
@@ -385,7 +387,7 @@ body {
 
 .imgFemale_trapsPost {
   position: absolute;
-  left: 533px;
+  left: 693px;
   top: 275px;
   transition: opacity .2s;
   opacity: 0;
@@ -397,7 +399,7 @@ body {
 
 .imgMale_glutes {
   position: absolute;
-  left: 506px;
+  left: 666px;
   top: 435px;
   transition: opacity .2s;
   opacity: 0;
@@ -409,7 +411,7 @@ body {
 
 .imgMale_upperBack {
   position: absolute;
-  left: 525px;
+  left: 685px;
   top: 271.5px;
   transition: opacity .2s;
   opacity: 0;
@@ -421,7 +423,7 @@ body {
 
 .imgMale_lowerBack {
   position: absolute;
-  left: 531px;
+  left: 691px;
   top: 376px;
   transition: opacity .2s;
   opacity: 0;
@@ -433,7 +435,7 @@ body {
 
 .imgMale_obliques_r {
   position: absolute;
-  left: 197.5px;
+  left: 357.5px;
   top: 342px;
   transition: opacity .2s;
   opacity: 0;
@@ -445,7 +447,7 @@ body {
 
 .imgMale_obliques_l {
   position: absolute;
-  left: 128px;
+  left: 288px;
   top: 342px;
   transition: opacity .2s;
   opacity: 0;
@@ -457,7 +459,7 @@ body {
 
 .imgMale_lats_r {
   position: absolute;
-  left: 565px;
+  left: 725px;
   top: 334px;
   transition: opacity .2s;
   opacity: 0;
@@ -469,7 +471,7 @@ body {
 
 .imgMale_lats_l {
   position: absolute;
-  left: 505px;
+  left: 665px;
   top: 334px;
   transition: opacity .2s;
   opacity: 0;
@@ -481,7 +483,7 @@ body {
 
 .imgMale_bicep_r {
   position: absolute;
-  left: 240px;
+  left: 400px;
   top: 336.5px;
   transition: opacity .2s;
   opacity: 0;
@@ -493,7 +495,7 @@ body {
 
 .imgMale_bicep_l {
   position: absolute;
-  left: 91px;
+  left: 251px;
   top: 337px;
   transition: opacity .2s;
   opacity: 0;
@@ -505,7 +507,7 @@ body {
 
 .imgMale_triceps_r {
   position: absolute;
-  left: 622px;
+  left: 782px;
   top: 322px;
   transition: opacity .2s;
   opacity: 0;
@@ -517,7 +519,7 @@ body {
 
 .imgMale_triceps_l {
   position: absolute;
-  left: 462px;
+  left: 622px;
   top: 322px;
   transition: opacity .2s;
   opacity: 0;
@@ -529,7 +531,7 @@ body {
 
 .imgMale_pecs {
   position: absolute;
-  left: 122.5px;
+  left: 282.5px;
   top: 300px;
   transition: opacity .2s;
   opacity: 0;
@@ -541,7 +543,7 @@ body {
 
 .imgMale_quads_r {
   position: absolute;
-  left: 190px;
+  left: 350px;
   top: 444px;
   transition: opacity .2s;
   opacity: 0;
@@ -553,7 +555,7 @@ body {
 
 .imgMale_quads_l {
   position: absolute;
-  left: 117px;
+  left: 277px;
   top: 444px;
   transition: opacity .2s;
   opacity: 0;
@@ -565,7 +567,7 @@ body {
 
 .imgMale_hams_r {
   position: absolute;
-  left: 568.5px;
+  left: 728.5px;
   top: 479px;
   transition: opacity .2s;
   opacity: 0;
@@ -577,7 +579,7 @@ body {
 
 .imgMale_hams_l {
   position: absolute;
-  left: 495px;
+  left: 655px;
   top: 479px;
   transition: opacity .2s;
   opacity: 0;
@@ -589,7 +591,7 @@ body {
 
 .imgMale_abs {
   position: absolute;
-  left: 153px;
+  left: 313px;
   top: 348px;
   transition: opacity .2s;
   opacity: 0;
@@ -602,7 +604,7 @@ body {
 
 .imgMale_calves_r {
   position: absolute;
-  left: 603px;
+  left: 763px;
   top: 601px;
   transition: opacity .2s;
   opacity: 0;
@@ -614,7 +616,7 @@ body {
 
 .imgMale_calves_l {
   position: absolute;
-  left: 479px;
+  left: 639px;
   top: 602px;
   transition: opacity .2s;
   opacity: 0;
@@ -626,7 +628,7 @@ body {
 
 .imgMale_deltoidAnt_r {
   position: absolute;
-  left: 214.5px;
+  left: 374.5px;
   top: 293.5px;
   transition: opacity .2s;
   opacity: 0;
@@ -638,7 +640,7 @@ body {
 
 .imgMale_deltoidAnt_l {
   position: absolute;
-  left: 101px;
+  left: 261px;
   top: 293.5px;
   transition: opacity .2s;
   opacity: 0;
@@ -650,7 +652,7 @@ body {
 
 .imgMale_deltoidPost_r {
   position: absolute;
-  left: 600px;
+  left: 759px;
   top: 283px;
   transition: opacity .2s;
   opacity: 0;
@@ -662,7 +664,7 @@ body {
 
 .imgMale_deltoidPost_l {
   position: absolute;
-  left: 475px;
+  left: 635px;
   top: 283px;
   transition: opacity .2s;
   opacity: 0;
@@ -674,7 +676,7 @@ body {
 
 .imgMale_trapsAnt {
   position: absolute;
-  left: 144px;
+  left: 304px;
   top: 267px;
   transition: opacity .2s;
   opacity: 0;
@@ -686,7 +688,7 @@ body {
 
 .imgMale_trapsPost {
   position: absolute;
-  left: 528px;
+  left: 688px;
   top: 254px;
   transition: opacity .2s;
   opacity: 0;
@@ -717,5 +719,5 @@ body {
 
 .desc {
   flex: 2;
-  margin-right: 150px;
+  /* margin-right: 50px; */
 }
