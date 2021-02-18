@@ -2,9 +2,9 @@
   display: none;
 }
 
-*, *::after, *::before {
+/* *, *::after, *::before {
   box-sizing: inherit;
-}
+} */
 
 html {
   font-family: "Lato", Helvetica, sans-serif;
@@ -16,7 +16,7 @@ html {
   margin: 0 auto;
 }
 
-.u-center-text {
+.complete-text {
   display: block;
   text-align: center;
   margin-bottom: 20px;
@@ -115,7 +115,7 @@ html {
   background-color: tomato;
 }
 
-.progress-set::-moz-progress-bar {
+.progress--set::-moz-progress-bar {
   background-color: tomato;
 }
 
@@ -130,5 +130,5 @@ html {
 .small-btns {
   margin-left: 2%;
   width: 30%;
-  font-size: 1em;
+  font-size: 1.3em;
 }

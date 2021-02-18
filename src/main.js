@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import './HIIT/hiit-styles.css';
+import './css/hiit-styles.css';
 import ExerciseService from './services/exercise-service.js';
 
 
@@ -41,43 +41,45 @@ $('form#category-select').submit(function(event) {
 //HIIT LOGIC
 $('button#start').on('click', function(event) {
   event.preventDefault();
-  const eTimer = () => {
-    const timerElement = document.getElementById("e-timer");
-    const progressBar = document.getElementById("e-progressBar");
+  const exerciseTimer = () => {
+    const timerElement = document.getElementById("exercise-timer");
+    const progressBar = document.getElementById("exercise-progressBar");
     let timerCounter = progressBar.max;
     const interval = setInterval(() => {
       if (timerCounter === 0) {
         $('#exercise-div').toggle();
         $('#rest-div').toggle();
-        rTimer();
         clearInterval(interval);
+        restTimer();
+        timerCounter = progressBar.max + 1;
       }
       timerCounter = timerCounter - 1;
 
-      timerElement.innerText = timerCounter + "s";
+      timerElement.innerText = timerCounter;
       progressBar.value = timerCounter;
     }, 1000);
   };
 
-  const rTimer = () => {
-    const timerElement = document.getElementById("r-timer");
-    const progressBar = document.getElementById("r-progressBar");
+  const restTimer = () => {
+    const timerElement = document.getElementById("rest-timer");
+    const progressBar = document.getElementById("rest-progressBar");
     let timerCounter = progressBar.max;
     const interval = setInterval(() => {
       if (timerCounter === 0 && sets === 1) {
-        $('.u-center-text').html(`You've completed ${totalSets} sets`);
+        $('.complete-text').html(`You've completed ${totalSets} sets`);
         $('#rest-div, #exercise-div').hide();
         $('#complete-div').show();
       } else if (timerCounter === 0) {
         sets--;
         $('#exercise-div').toggle();
         $('#rest-div').toggle();
-        eTimer();
         clearInterval(interval);
+        exerciseTimer();
+        timerCounter = progressBar.max +1;
       }
       timerCounter = timerCounter - 1;
 
-      timerElement.innerText = timerCounter + "s";
+      timerElement.innerText = timerCounter;
       progressBar.value = timerCounter;
     }, 1000);
   };
@@ -87,15 +89,15 @@ $('button#start').on('click', function(event) {
   let sets = parseInt($('#sets').val());
 
 
-  $('#e-timer').html(exercise);
-  $('#r-timer').html(rest);
-  document.getElementById("e-progressBar").max = exercise;
-  document.getElementById("e-progressBar").value = exercise;
-  document.getElementById("r-progressBar").max = rest;
-  document.getElementById("r-progressBar").value = rest;
+  $('#exercise-timer').html(exercise);
+  $('#rest-timer').html(rest);
+  document.getElementById("exercise-progressBar").max = exercise;
+  document.getElementById("exercise-progressBar").value = exercise;
+  document.getElementById("rest-progressBar").max = rest;
+  document.getElementById("rest-progressBar").value = rest;
   $('#exercise-div').toggle();
   $('#setup').toggle();
-  eTimer();
+  exerciseTimer();
 });
 
 //sexyDoll logic

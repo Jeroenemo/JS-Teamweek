@@ -27,7 +27,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'hiit.html',
-      template: './src/HIIT/hiit.html',
+      template: './src/hiit.html',
       inject: 'body'
     }),
     new Dotenv()

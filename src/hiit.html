@@ -5,10 +5,11 @@
   <title>HIIT Timer</title>
 </head>
 
-<a href="index.html"><button class="btn btn-lg mt-3 mb-3 small-btns" id="muscle-button">Search by Muscle</button></a>
-<a href="dropdownExercise.html"><button class="btn btn-lg mt-3 mb-3 small-btns" id="category-button">Search by Category</button></a>
-<a href="hiit.html"><button class="btn btn-lg mt-3 mb-3 small-btns" id="hiit-button">HIIT</button></a>
-<body class="hiit-body">
+<body>
+  <a href="index.html"><button class="btn btn-lg mt-3 mb-4 small-btns" id="muscle-button">Search by Muscle</button></a>
+  <a href="dropdownExercise.html"><button class="btn btn-lg mt-3 mb-4 small-btns" id="category-button">Search by Category</button></a>
+  <a href="hiit.html"><button class="btn btn-lg mt-3 mb-4 small-btns" id="hiit-button">HIIT Timer</button></a>
+<div class="hiit-body">
 <div class="header"><h1 class="header-logo">HIIT Timer</h1></div>
   <main class="main">
     <div id="setup">
@@ -34,29 +35,29 @@
     <div id="exercise-div">
       <h2 class="heading">Exercise</h2>
   
-      <span class="timer" id="e-timer">s</span>
+      <span class="timer" id="exercise-timer"></span>
       <progress 
         max="" 
         value="" 
         class="progress progress--set" 
-        id="e-progressBar"
+        id="exercise-progressBar"
       ></progress>
     </div>
     <div id="rest-div">
       <h2 class="heading">Rest</h2>
   
-      <span class="timer" id="r-timer">s</span>
+      <span class="timer" id="rest-timer"></span>
       <progress 
         max="" 
         value="" 
-        class="progress progress--set" 
-        id="r-progressBar"
+        class="progress progress--rest" 
+        id="rest-progressBar"
       ></progress>
     </div>
     <div id="complete-div">
 
       <h2 class="heading">Congratulations</h2>
-      <span class="u-center-text"></span>
+      <span class="complete-text"></span>
       <form class="form">
         <div class="form-button-container">
           <button class="button" type="submit">Back</button>
@@ -64,5 +65,7 @@
       </form>
     </div>
   </main>
+</div>
 </body>
+
 </html>
