@@ -1,12 +1,13 @@
+
 ## Workout buddy
 #### *Epicodus Week 7 Team Project  2/15-18/2021*
 ***By Jeroen van Seeters, Mike Pingel, Mikey Kriegel, James Wyn, Daniel Adeyemi***
 ___
+<img src="src/img/rippedMike.jpg" width="200" height="200" />     
 
 ## *Description*:    
-<img src="src/img/rippedMike.jpg" width="200" height="200" />  
---- 
-***Don't know where to start your workout journey or tired from using same routine over and over again? Use our workout buddy app to make your training more efficient! Plus you can use in-built HIIT timer as bonus from our development Manager!***
+
+***Don't know where to start your workout journey or tired from using same routine over and over again? Use our workout buddy app to make your training more efficient! Plus you can use in-built HIIT timer as bonus from our development Manager!***   
 ### *A web app that allows user to search for exercises based on muscle groups or keywords.  App uses API call to get the list of exercices based on request and then displays them for the user with optional descriptions (available on click).*
 
 
@@ -25,8 +26,8 @@ ___
 This program uses an API key from [Workout manager](https://wger.de/en/software/api).   
 You don't need special key to use this application.   
 
-#### GitHub pages:
-*GitHub page is unavailable for this project*
+#### View website:
+*GitHub page is unavailable for this project. To run it with a functioning environment use `npm run start` command*
 
 ## *Tecnologies used:*
 * HTML
@@ -40,7 +41,7 @@ You don't need special key to use this application.
 
 ## *Known bugs:*
 * Not all exercices have description (API restriction)
-
+* Upper and lower back exercices are not showing for *search by muscle* category (API restriction)
 ## *License and copyright:*
 
 > ***© Jeroen van Seeters, Mike Pingel, Mikey Kriegel, James Wyn, Daniel Adeyemi, 2021***  
