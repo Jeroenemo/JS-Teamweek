@@ -16,7 +16,7 @@ function addImages(imagesArray) {
 function getExercises(response) {
   for (let i = 0; i < response.results.length; i++) {
     if (response.results[i].description.length > 20) {
-      $('#exercise-list').append(`<p id='exercise-${response.results[i].id}'>${response.results[i].name}</p>`);
+      $('#unordered').append(`<li id='exercise-${response.results[i].id}'>${response.results[i].name}</li>`);
       $("#exercise-list").on("click", `#exercise-${response.results[i].id}`, function() {
         $('.exercise-description').html(`<h2>${response.results[i].name}</h2><p>${response.results[i].description}</p>`);
         addImages(response.results[i].images);
@@ -28,7 +28,7 @@ function getExercises(response) {
 $('form#category-select').submit(function(event) {
   event.preventDefault();
   $('#exercise-header').hide();
-  $('#exercise-list').html("");
+  $('#unordered').html("");
   $('.exercise-description').html("");
   const categoryUrl = `&category=${$('#category').val()}`;
   (async function() {
