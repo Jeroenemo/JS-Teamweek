@@ -88,8 +88,6 @@ $('button#start').on('click', function(event) {
   const rest = $('#rest').val();
   const totalSets = $('#sets').val();
   let sets = parseInt($('#sets').val());
-
-
   $('#exercise-timer').html(exercise);
   $('#rest-timer').html(rest);
   document.getElementById("exercise-progressBar").max = exercise;
