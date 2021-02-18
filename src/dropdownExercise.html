@@ -8,36 +8,54 @@
 </head>
 
 <body>
-  <div class="container">
-    <a href="index.html"><button class="btn btn-lg mt-3 mb-3" id="muscle-button">Search by Muscle</button></a>
-    <a href="dropdownExercise.html"><button class="btn btn-lg mt-3 mb-3" id="category-button">Search by Category</button></a>
-    <a href="hiit.html"><button class="btn btn-lg mt-3 mb-3" id="hiit-button">HIIT</button></a>
-    <form id="category-select">
-      <div class="row">
-        <div class="col-3">
-          <label for="category">Category</label>
-          <select class="custom-select mb-3" id="category">
-              <option disabled selected>Select Muscle Group:</option>
-              <option value="10">Abs</option>
-              <option value="8">Arms</option>
-              <option value="12">Back</option>
-              <option value="14">Calves</option>
-              <option value="11">Chest</option>
-              <option value="9">Legs</option>
-              <option value="13">Shoulders</option>
-            </select>
-        </div>
+  <div class="container no-gutters">
+    <div class="flex-buttons">
+      <div class="flex-button-1">
+        <a href="index.html"><button class="btn btn-lg mt-3 mb-4" id="muscle-button">Search by Muscle</button></a>
       </div>
-      <button id="submit" type="submit" class="btn btn-success">Submit</button>
-    </form>
-    <div id="exercise-list">
-      <h3>Exercises:</h3>
-      <div id="exercise-list-contents">
-      
+      <div class="flex-button-2">
+        <a href="dropdownExercise.html"><button class="btn btn-lg mt-3 mb-4" id="category-button">Search by Category</button></a>
+      </div>
+      <div class="flex-button-3">
+        <a href="hiit.html"><button class="btn btn-lg mt-3 mb-4" id="hiit-button">HIIT</button></a>
       </div>
     </div>
-    <div class="exercise-description">
-    
+  <!-- <div class="container">
+    <a href="index.html"><button class="btn btn-lg mt-3 mb-3" id="muscle-button">Search by Muscle</button></a>
+    <a href="dropdownExercise.html"><button class="btn btn-lg mt-3 mb-3" id="category-button">Search by Category</button></a>
+    <a href="hiit.html"><button class="btn btn-lg mt-3 mb-3" id="hiit-button">HIIT</button></a> -->
+    <div class="flex-container">
+      <div class="flex-category-select">
+        <form id="category-select">
+          <div class="row">
+            <div class="col-5">
+              <label for="category">Category</label>
+              <select class="custom-select mb-3" id="category">
+                  <option disabled selected>Select Muscle Group:</option>
+                  <option value="10">Abs</option>
+                  <option value="8">Arms</option>
+                  <option value="12">Back</option>
+                  <option value="14">Calves</option>
+                  <option value="11">Chest</option>
+                  <option value="9">Legs</option>
+                  <option value="13">Shoulders</option>
+                </select>
+            </div>
+          </div>
+          <button id="submit" type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+      <div class="flex-exercise-list">
+        <div id="exercise-header">
+          <h2>Exercises:</h2>
+        </div>
+        <div id="exercise-list">
+          
+        </div>
+      </div>
+      <div class="exercise-description">
+      
+      </div>
     </div>
   </div>
 </body>

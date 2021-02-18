@@ -8,13 +8,21 @@
 </head>
 
 <body>
-  <div class="container">
-    <a href="index.html"><button class="btn btn-lg mt-3" id="muscle-button">Search by Muscle</button></a>
-    <a href="dropdownExercise.html"><button class="btn btn-lg mt-3" id="category-button">Search by Category</button></a>
-    <a href="hiit.html"><button class="btn btn-lg mt-3" id="hiit-button">HIIT</button></a>
-  </div>
+  <div class="container no-gutters">
+    <div class="flex-buttons">
+      <div class="flex-button-1">
+        <a href="index.html"><button class="btn btn-lg mt-3" id="muscle-button">Search by Muscle</button></a>
+      </div>
+      <div class="flex-button-2">
+        <a href="dropdownExercise.html"><button class="btn btn-lg mt-3" id="category-button">Search by Category</button></a>
+      </div>
+      <div class="flex-button-3">
+        <a href="hiit.html"><button class="btn btn-lg mt-3" id="hiit-button">HIIT</button></a>
+      </div>
+    </div>
 
-  <div class="container">
+
+
     <form>
       <div class="form-check">
         <input class="form-check-input bodyImg" type="radio" name="gender" id="male" value="male">
@@ -29,75 +37,76 @@
         </label>
       </div>
     </form>
-  </div>
 
-  <div class="flex_Container">
-    <div class="flex_PaperDoll">
-      <div class="femaleDiv">
-        <img id="imgPaperDoll_female" src="img/Paper_doll_female.png">
-        <div class="femaleChild">
-          <img class="imgFemale_bicep_r show" id="1" src="img/female_biceps_r.png">
-          <img class="imgFemale_bicep_l show" id="1" src="img/female_biceps_l.png">
-          <img class="imgFemale_calves show" id="7" src="img/female_calves.png">
-          <img class="imgFemale_deltoidAnt_r show" id="2" src="img/female_deltoidAnt_r.png">
-          <img class="imgFemale_deltoidAnt_l show" id="2" src="img/female_deltoidAnt_l.png">
-          <img class="imgFemale_deltoidPost_r show" id="2" src="img/female_deltoidPost_r.png">
-          <img class="imgFemale_deltoidPost_l show" id="2" src="img/female_deltoidPost_l.png">
-          <img class="imgFemale_lats_r show" id="12" src="img/female_latisumusDorsi_r.png">
-          <img class="imgFemale_lats_l show" id="12" src="img/female_latisumusDorsi_l.png">
-          <img class="imgFemale_lowerBack show" id="" src="img/female_lowerBack.png">
-          <img class="imgFemale_pecs show" id="4" src="img/female_pecs.png">
-          <img class="imgFemale_hams show" id="11" src="img/female_hams.png">
-          <img class="imgFemale_trapsAnt show" id="9" src="img/female_trapsAnt.png">
-          <img class="imgFemale_trapsPost show" id="9" src="img/female_trapsPost.png">
-          <img class="imgFemale_triceps_r show" id="5" src="img/female_triceps_r.png">
-          <img class="imgFemale_triceps_l show" id="5" src="img/female_triceps_l.png">
-          <img class="imgFemale_upperBack show" id="" src="img/female_upperBack.png">
-          <img class="imgFemale_abs show" id="6" src="img/female_abs.png">
-          <img class="imgFemale_glutes show" id="8" src="img/female_glutes.png">
-          <img class="imgFemale_obliques_r show" id="14" src="img/female_obliques_r.png">
-          <img class="imgFemale_obliques_l show" id="14" src="img/female_obliques_l.png">
-          <img class="imgFemale_quads show" id="10" src="img/female_quads.png">
+
+    <div class="flex_Container">
+      <div class="flex_PaperDoll">
+        <div class="femaleDiv">
+          <img id="imgPaperDoll_female" src="img/Paper_doll_female_DS-01.png">
+          <div class="femaleChild">
+            <img class="imgFemale_bicep_r show" id="1" src="img/female_biceps_r.png">
+            <img class="imgFemale_bicep_l show" id="1" src="img/female_biceps_l.png">
+            <img class="imgFemale_calves show" id="7" src="img/female_calves.png">
+            <img class="imgFemale_deltoidAnt_r show" id="2" src="img/female_deltoidAnt_r.png">
+            <img class="imgFemale_deltoidAnt_l show" id="2" src="img/female_deltoidAnt_l.png">
+            <img class="imgFemale_deltoidPost_r show" id="2" src="img/female_deltoidPost_r.png">
+            <img class="imgFemale_deltoidPost_l show" id="2" src="img/female_deltoidPost_l.png">
+            <img class="imgFemale_lats_r show" id="12" src="img/female_latisumusDorsi_r.png">
+            <img class="imgFemale_lats_l show" id="12" src="img/female_latisumusDorsi_l.png">
+            <img class="imgFemale_lowerBack show" id="" src="img/female_lowerBack.png">
+            <img class="imgFemale_pecs show" id="4" src="img/female_pecs.png">
+            <img class="imgFemale_hams show" id="11" src="img/female_hams.png">
+            <img class="imgFemale_trapsAnt show" id="9" src="img/female_trapsAnt.png">
+            <img class="imgFemale_trapsPost show" id="9" src="img/female_trapsPost.png">
+            <img class="imgFemale_triceps_r show" id="5" src="img/female_triceps_r.png">
+            <img class="imgFemale_triceps_l show" id="5" src="img/female_triceps_l.png">
+            <img class="imgFemale_upperBack show" id="" src="img/female_upperBack.png">
+            <img class="imgFemale_abs show" id="6" src="img/female_abs.png">
+            <img class="imgFemale_glutes show" id="8" src="img/female_glutes.png">
+            <img class="imgFemale_obliques_r show" id="14" src="img/female_obliques_r.png">
+            <img class="imgFemale_obliques_l show" id="14" src="img/female_obliques_l.png">
+            <img class="imgFemale_quads show" id="10" src="img/female_quads.png">
+          </div>
+        </div>
+
+        <div class="maleDiv">
+          <img id="imgPaperDoll_male" src="img/Paper_doll_male.png">
+          <div class="maleChild">
+            <img class="imgMale_bicep_r show" id="1" src="img/male_bicep_r.png">
+            <img class="imgMale_bicep_l show" id="1" src="img/male_bicep_l.png">
+            <img class="imgMale_calves_r show" id="7" src="img/male_calves_r.png">
+            <img class="imgMale_calves_l show" id="7" src="img/male_calves_l.png">
+            <img class="imgMale_deltoidAnt_r show" id="2" src="img/male_deltoidAnt_r.png">
+            <img class="imgMale_deltoidAnt_l show" id="2" src="img/male_deltoidAnt_l.png">
+            <img class="imgMale_deltoidPost_r show" id="2" src="img/male_deltoidPost_r.png">
+            <img class="imgMale_deltoidPost_l show" id="2" src="img/male_deltoidPost_l.png">
+            <img class="imgMale_lats_r show" id="12" src="img/male_latisumusDorsi_r.png">
+            <img class="imgMale_lats_l show" id="12" src="img/male_latisumusDorsi_l.png">
+            <img class="imgMale_lowerBack show" id="" src="img/male_lowerBack.png">
+            <img class="imgMale_pecs show" id="4" src="img/male_pecs.png">
+            <img class="imgMale_hams_r show" id="11" src="img/male_hams_r.png">
+            <img class="imgMale_hams_l show" id="11" src="img/male_hams_l.png">
+            <img class="imgMale_trapsAnt show" id="9" src="img/male_trapsAnt.png">
+            <img class="imgMale_trapsPost show" id="9" src="img/male_trapsPost.png">
+            <img class="imgMale_triceps_r show" id="5" src="img/male_tricep_r.png">
+            <img class="imgMale_triceps_l show" id="5" src="img/male_tricep_l.png">
+            <img class="imgMale_upperBack show" id="" src="img/male_upperBack.png">
+            <img class="imgMale_abs show" id="6" src="img/male_abs.png">
+            <img class="imgMale_glutes show" id="8" src="img/male_glutes.png">
+            <img class="imgMale_obliques_r show" id="14" src="img/male_oblique_r.png">
+            <img class="imgMale_obliques_l show" id="14" src="img/male_oblique_l.png">
+            <img class="imgMale_quads_r show" id="10" src="img/male_quads_r.png">
+            <img class="imgMale_quads_l show" id="10" src="img/male_quads_l.png">
+          </div>
         </div>
       </div>
 
-      <div class="maleDiv">
-        <img id="imgPaperDoll_male" src="img/Paper_doll_male.png">
-        <div class="maleChild">
-          <img class="imgMale_bicep_r show" id="1" src="img/male_bicep_r.png">
-          <img class="imgMale_bicep_l show" id="1" src="img/male_bicep_l.png">
-          <img class="imgMale_calves_r show" id="7" src="img/male_calves_r.png">
-          <img class="imgMale_calves_l show" id="7" src="img/male_calves_l.png">
-          <img class="imgMale_deltoidAnt_r show" id="2" src="img/male_deltoidAnt_r.png">
-          <img class="imgMale_deltoidAnt_l show" id="2" src="img/male_deltoidAnt_l.png">
-          <img class="imgMale_deltoidPost_r show" id="2" src="img/male_deltoidPost_r.png">
-          <img class="imgMale_deltoidPost_l show" id="2" src="img/male_deltoidPost_l.png">
-          <img class="imgMale_lats_r show" id="12" src="img/male_latisumusDorsi_r.png">
-          <img class="imgMale_lats_l show" id="12" src="img/male_latisumusDorsi_l.png">
-          <img class="imgMale_lowerBack show" id="" src="img/male_lowerBack.png">
-          <img class="imgMale_pecs show" id="4" src="img/male_pecs.png">
-          <img class="imgMale_hams_r show" id="11" src="img/male_hams_r.png">
-          <img class="imgMale_hams_l show" id="11" src="img/male_hams_l.png">
-          <img class="imgMale_trapsAnt show" id="9" src="img/male_trapsAnt.png">
-          <img class="imgMale_trapsPost show" id="9" src="img/male_trapsPost.png">
-          <img class="imgMale_triceps_r show" id="5" src="img/male_tricep_r.png">
-          <img class="imgMale_triceps_l show" id="5" src="img/male_tricep_l.png">
-          <img class="imgMale_upperBack show" id="" src="img/male_upperBack.png">
-          <img class="imgMale_abs show" id="6" src="img/male_abs.png">
-          <img class="imgMale_glutes show" id="8" src="img/male_glutes.png">
-          <img class="imgMale_obliques_r show" id="14" src="img/male_oblique_r.png">
-          <img class="imgMale_obliques_l show" id="14" src="img/male_oblique_l.png">
-          <img class="imgMale_quads_r show" id="10" src="img/male_quads_r.png">
-          <img class="imgMale_quads_l show" id="10" src="img/male_quads_l.png">
-        </div>
+      <div class="flex_Output">
+        <ul class="output"></ul>
       </div>
-    </div>
 
-    <div class="flex_Output">
-      <ul class="output"></ul>
+      <div class="desc"></div>
     </div>
-
-    <div class="desc"></div>
   </div>
 </body>
 

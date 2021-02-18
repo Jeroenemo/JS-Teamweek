@@ -16,12 +16,10 @@ function addImages(imagesArray) {
 function getExercises(response) {
   for (let i = 0; i < response.results.length; i++) {
     if (response.results[i].description.length > 20) {
-      $('#exercise-list-contents').append(`<p id='exercise-${response.results[i].id}'>${response.results[i].name}</p>`);
+      $('#exercise-list').append(`<p id='exercise-${response.results[i].id}'>${response.results[i].name}</p>`);
       $("#exercise-list").on("click", `#exercise-${response.results[i].id}`, function() {
-        $('#exercise-list').slideToggle();
-        $('.desc').html(`<h2>${response.results[i].name}</h2><p>${response.results[i].description}</p>`);
+        $('.exercise-description').html(`<h2>${response.results[i].name}</h2><p>${response.results[i].description}</p>`);
         addImages(response.results[i].images);
-        $('.desc').slideToggle();
       });
     }
   }
@@ -29,13 +27,15 @@ function getExercises(response) {
 
 $('form#category-select').submit(function(event) {
   event.preventDefault();
-  $('#exercise-list-contents').html("");
+  $('#exercise-header').hide();
+  $('#exercise-list').html("");
+  $('.exercise-description').html("");
   const categoryUrl = `&category=${$('#category').val()}`;
   (async function() {
     const response = await ExerciseService.getExercise(categoryUrl);
     getExercises(response);
+    $('#exercise-header').show();
   })();
-
 });
 
 //HIIT LOGIC
