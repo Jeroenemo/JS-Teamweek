@@ -1,27 +1,19 @@
 #exercise-div, #rest-div, #complete-div {
   display: none;
 }
-
-/* *, *::after, *::before {
-  box-sizing: inherit;
-} */
-
 html {
   font-family: "Lato", Helvetica, sans-serif;
 }
-
 .hiit-body {
   box-sizing: border-box;
   max-width: 600px;
   margin: 0 auto;
 }
-
 .complete-text {
   display: block;
   text-align: center;
   margin-bottom: 20px;
 }
-
 .header {
   background-color: black;
   font-weight: bold;
@@ -29,11 +21,9 @@ html {
   padding: 0.5rem 2rem;
   margin-bottom: 1.75rem;
 }
-
 .header-logo {
   font-size: 1rem;
 }
-
 .heading {
   display: block;
   font-size: 1.5rem;
@@ -41,18 +31,15 @@ html {
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
-
 .timer {
   display: block;
   font-size: 4rem;
   text-align: center;
   margin-bottom: 0.75rem;
 }
-
 .main {
   padding: 0 1.25rem;
 }
-
 .form {
   margin-top: 20px;
   display: grid;
@@ -63,13 +50,11 @@ html {
   width: auto;
   font-size: 0.9rem;
 }
-
 .form-button-container {
   display: grid;
   justify-content: center;
   grid-column: 1/4;
 }
-
 .form-input {
   max-width: 6rem;
   width: 100%;
@@ -78,13 +63,11 @@ html {
   padding: 7px 10px;
   font-size: inherit;
 }
-
 .form-label {
   margin-right: 10px;
   font-size: 1.2rem;
   text-align: right;
 }
-
 .button {
   font-size: 1.2rem;
   padding: 10px 30px;
@@ -93,11 +76,9 @@ html {
   cursor: pointer;
   transition: background-color 0.1s ease-in-out;
 }
-
 .button:hover {
   background-color: rgb(85, 192, 228);
 }
-
 .progress {
   display: block;
   width: 80%;
@@ -106,27 +87,21 @@ html {
   background-image: none;
   -webkit-appearance: none;
 }
-
 .progress, .progress::-webkit-progress-bar {
   background-color: white;
 }
-
 .progress--set::-webkit-progress-value {
   background-color: tomato;
 }
-
 .progress--set::-moz-progress-bar {
   background-color: tomato;
 }
-
 .progress--rest::-webkit-progress-value {
   background-color: mediumseagreen;
 }
-
 .progress--rest::-moz-progress-bar {
   background-color: mediumseagreen;
 }
-
 .small-btns {
   margin-left: 2%;
   width: 30%;

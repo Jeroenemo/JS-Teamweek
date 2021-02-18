@@ -11,8 +11,6 @@ function addImages(imagesArray) {
     $('.exercise-description').append(`<img class="workout-image" src="${imageObject.image}">`);
   });
 }
-
-
 function getExercises(response) {
   for (let i = 0; i < response.results.length; i++) {
     if (response.results[i].description.length > 20) {
@@ -24,7 +22,6 @@ function getExercises(response) {
     }
   }
 }
-
 $('form#category-select').submit(function(event) {
   event.preventDefault();
   $('#exercise-header').hide();
@@ -38,8 +35,6 @@ $('form#category-select').submit(function(event) {
     $('#exercise-header').show();
   })();
 });
-
-//HIIT LOGIC
 $('button#start').on('click', function(event) {
   event.preventDefault();
   const exerciseTimer = () => {
@@ -55,12 +50,10 @@ $('button#start').on('click', function(event) {
         timerCounter = progressBar.max + 1;
       }
       timerCounter = timerCounter - 1;
-
       timerElement.innerText = timerCounter;
       progressBar.value = timerCounter;
     }, 1000);
   };
-
   const restTimer = () => {
     const timerElement = document.getElementById("rest-timer");
     const progressBar = document.getElementById("rest-progressBar");
@@ -79,7 +72,6 @@ $('button#start').on('click', function(event) {
         timerCounter = progressBar.max +1;
       }
       timerCounter = timerCounter - 1;
-
       timerElement.innerText = timerCounter;
       progressBar.value = timerCounter;
     }, 1000);
@@ -98,8 +90,6 @@ $('button#start').on('click', function(event) {
   $('#setup').toggle();
   exerciseTimer();
 });
-
-//sexyDoll logic
 $(document).ready(function() {
   $(".maleDiv").hide();
   $(".femaleDiv").hide();
@@ -113,7 +103,6 @@ $(document).ready(function() {
       $(".maleDiv").hide();
     }
   });
-
   function showExercise(response) {
     if (response.count) {
       for (let i = 0; i < response.results.length; i++) {
@@ -125,8 +114,6 @@ $(document).ready(function() {
       }
     }
   }
-
-
   $('.show').click(function() {
     const target = `&muscles=${$(this).attr('id')}`;
     ExerciseService.getExercise(target)

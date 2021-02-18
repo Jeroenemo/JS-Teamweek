@@ -1,121 +1,88 @@
 body {
   margin: auto;
 }
-
 .workout-image {
   max-width: 100%;
   max-height: 400px;
 }
-
 .exercise-description {
   flex: 1;
 }
-
 .flex-container {
   display: flex;
 }
-
 .flex-category-select {
   flex: 1;
 }
-
 .flex-exercise-list {
   flex: 1;
 }
-
 #exercise-header {
   display: none;
 }
-
 .btn-lg {
   width: 92.5%;
 }
-
 .flex-buttons {
   display: flex;
 }
-
 .flex-button-1 {
   flex: 1;
 }
-
 .flex-button-2 {
   flex: 1;
 }
-
 .flex-button-3 {
   flex: 1;
 }
-
 #category-button {
   border-color: #b33742;
   color: #b33742;
 }
-
 #category-button:hover {
   color: white;
   border-color: #b33742;
   background-color: #b33742;
 }
-
 #category-button:focus {
   box-shadow: 0 0 0 0.2rem #b33742;
 }
-
 #category-button:active {
   color: white;
   background-color: #892931;
 }
-
 #muscle-button {
   border-color: #37b39c;
   color: #37b39c;
 }
-
 #muscle-button:hover {
   color: white;
   border-color: #37b39c;
   background-color: #37b39c;
 }
-
 #muscle-button:focus {
   box-shadow: 0 0 0 0.2rem #37b39c;
 }
-
 #muscle-button:active {
   color: white;
   background-color: #2b8c7a;
 }
-
 #hiit-button {
   border-color: #7fb337;
   color: #7fb337;
 }
-
 #hiit-button:hover {
   color: white;
   border-color: #7fb337;
   background-color: #7fb337;
 }
-
 #hiit-button:focus {
   box-shadow: 0 0 0 0.2rem #7fb337;
 }
-
 #hiit-button:active {
   color: white;
   background-color: #648c2b;
 }
-
- 
-
-
-/* .btn-outline-success:active {
-  color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
-} */
-
 .output>li:hover,
 #unordered>li:hover {
   font-style: italic;
@@ -124,7 +91,6 @@ body {
   color: blue;
   cursor: pointer;
 }
-
 .imgFemale_glutes {
   position: absolute;
   left: 515px;
@@ -132,11 +98,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_glutes:hover {
   opacity: 1;
 }
-
 .imgFemale_upperBack {
   position: absolute;
   left: 527px;
@@ -144,11 +108,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_upperBack:hover {
   opacity: 1;
 }
-
 .imgFemale_lowerBack {
   position: absolute;
   left: 538px;
@@ -156,11 +118,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_lowerBack:hover {
   opacity: 1;
 }
-
 .imgFemale_obliques_r {
   position: absolute;
   left: 188px;
@@ -168,11 +128,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_obliques_r:hover {
   opacity: 1;
 }
-
 .imgFemale_obliques_l {
   position: absolute;
   left: 133px;
@@ -180,11 +138,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_obliques_l:hover {
   opacity: 1;
 }
-
 .imgFemale_lats_r {
   position: absolute;
   left: 570px;
@@ -193,11 +149,9 @@ body {
   opacity: 0;
   z-index: 1;
 }
-
 .imgFemale_lats_r:hover {
   opacity: 1;
 }
-
 .imgFemale_lats_l {
   position: absolute;
   left: 523px;
@@ -206,11 +160,9 @@ body {
   opacity: 0;
   z-index: 1;
 }
-
 .imgFemale_lats_l:hover {
   opacity: 1;
 }
-
 .imgFemale_bicep_r {
   position: absolute;
   left: 233px;
@@ -218,11 +170,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_bicep_r:hover {
   opacity: 1;
 }
-
 .imgFemale_bicep_l {
   position: absolute;
   left: 107px;
@@ -230,11 +180,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_bicep_l:hover {
   opacity: 1;
 }
-
 .imgFemale_triceps_r {
   position: absolute;
   left: 619px;
@@ -242,11 +190,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_triceps_r:hover {
   opacity: 1;
 }
-
 .imgFemale_triceps_l {
   position: absolute;
   left: 485px;
@@ -254,11 +200,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_triceps_l:hover {
   opacity: 1;
 }
-
 .imgFemale_pecs {
   position: absolute;
   left: 126.5px;
@@ -266,11 +210,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_pecs:hover {
   opacity: 1;
 }
-
 .imgFemale_quads {
   position: absolute;
   left: 127px;
@@ -278,11 +220,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_quads:hover {
   opacity: 1;
 }
-
 .imgFemale_hams {
   position: absolute;
   left: 507.5px;
@@ -290,11 +230,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_hams:hover {
   opacity: 1;
 }
-
 .imgFemale_abs {
   position: absolute;
   left: 159px;
@@ -303,11 +241,9 @@ body {
   opacity: 0;
   z-index: 1;
 }
-
 .imgFemale_abs:hover {
   opacity: 1;
 }
-
 .imgFemale_calves {
   position: absolute;
   left: 507.5px;
@@ -315,11 +251,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_calves:hover {
   opacity: 1;
 }
-
 .imgFemale_deltoidAnt_r {
   position: absolute;
   left: 218px;
@@ -327,11 +261,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_deltoidAnt_r:hover {
   opacity: 1;
 }
-
 .imgFemale_deltoidAnt_l {
   position: absolute;
   left: 113px;
@@ -339,11 +271,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_deltoidAnt_l:hover {
   opacity: 1;
 }
-
 .imgFemale_deltoidPost_r {
   position: absolute;
   left: 603px;
@@ -351,11 +281,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_deltoidPost_r:hover {
   opacity: 1;
 }
-
 .imgFemale_deltoidPost_l {
   position: absolute;
   left: 490px;
@@ -363,11 +291,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_deltoidPost_l:hover {
   opacity: 1;
 }
-
 .imgFemale_trapsAnt {
   position: absolute;
   left: 147px;
@@ -375,11 +301,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_trapsAnt:hover {
   opacity: 1;
 }
-
 .imgFemale_trapsPost {
   position: absolute;
   left: 533px;
@@ -387,11 +311,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgFemale_trapsPost:hover {
   opacity: 1;
 }
-
 .imgMale_glutes {
   position: absolute;
   left: 506px;
@@ -399,11 +321,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_glutes:hover {
   opacity: 1;
 }
-
 .imgMale_upperBack {
   position: absolute;
   left: 525px;
@@ -411,11 +331,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_upperBack:hover {
   opacity: 1;
 }
-
 .imgMale_lowerBack {
   position: absolute;
   left: 531px;
@@ -423,11 +341,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_lowerBack:hover {
   opacity: 1;
 }
-
 .imgMale_obliques_r {
   position: absolute;
   left: 197.5px;
@@ -435,11 +351,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_obliques_r:hover {
   opacity: 1;
 }
-
 .imgMale_obliques_l {
   position: absolute;
   left: 128px;
@@ -447,11 +361,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_obliques_l:hover {
   opacity: 1;
 }
-
 .imgMale_lats_r {
   position: absolute;
   left: 565px;
@@ -459,11 +371,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_lats_r:hover {
   opacity: 1;
 }
-
 .imgMale_lats_l {
   position: absolute;
   left: 505px;
@@ -471,11 +381,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_lats_l:hover {
   opacity: 1;
 }
-
 .imgMale_bicep_r {
   position: absolute;
   left: 240px;
@@ -483,11 +391,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_bicep_r:hover {
   opacity: 1;
 }
-
 .imgMale_bicep_l {
   position: absolute;
   left: 91px;
@@ -495,11 +401,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_bicep_l:hover {
   opacity: 1;
 }
-
 .imgMale_triceps_r {
   position: absolute;
   left: 622px;
@@ -507,11 +411,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_triceps_r:hover {
   opacity: 1;
 }
-
 .imgMale_triceps_l {
   position: absolute;
   left: 462px;
@@ -519,11 +421,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_triceps_l:hover {
   opacity: 1;
 }
-
 .imgMale_pecs {
   position: absolute;
   left: 122.5px;
@@ -531,11 +431,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_pecs:hover {
   opacity: 1;
 }
-
 .imgMale_quads_r {
   position: absolute;
   left: 190px;
@@ -543,11 +441,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_quads_r:hover {
   opacity: 1;
 }
-
 .imgMale_quads_l {
   position: absolute;
   left: 117px;
@@ -555,11 +451,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_quads_l:hover {
   opacity: 1;
 }
-
 .imgMale_hams_r {
   position: absolute;
   left: 568.5px;
@@ -567,11 +461,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_hams_r:hover {
   opacity: 1;
 }
-
 .imgMale_hams_l {
   position: absolute;
   left: 495px;
@@ -579,11 +471,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_hams_l:hover {
   opacity: 1;
 }
-
 .imgMale_abs {
   position: absolute;
   left: 153px;
@@ -592,11 +482,9 @@ body {
   opacity: 0;
   z-index: 1;
 }
-
 .imgMale_abs:hover {
   opacity: 1;
 }
-
 .imgMale_calves_r {
   position: absolute;
   left: 603px;
@@ -604,11 +492,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_calves_r:hover {
   opacity: 1;
 }
-
 .imgMale_calves_l {
   position: absolute;
   left: 479px;
@@ -616,11 +502,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_calves_l:hover {
   opacity: 1;
 }
-
 .imgMale_deltoidAnt_r {
   position: absolute;
   left: 214.5px;
@@ -628,11 +512,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_deltoidAnt_r:hover {
   opacity: 1;
 }
-
 .imgMale_deltoidAnt_l {
   position: absolute;
   left: 101px;
@@ -640,11 +522,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_deltoidAnt_l:hover {
   opacity: 1;
 }
-
 .imgMale_deltoidPost_r {
   position: absolute;
   left: 600px;
@@ -652,11 +532,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_deltoidPost_r:hover {
   opacity: 1;
 }
-
 .imgMale_deltoidPost_l {
   position: absolute;
   left: 475px;
@@ -664,11 +542,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_deltoidPost_l:hover {
   opacity: 1;
 }
-
 .imgMale_trapsAnt {
   position: absolute;
   left: 144px;
@@ -676,11 +552,9 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_trapsAnt:hover {
   opacity: 1;
 }
-
 .imgMale_trapsPost {
   position: absolute;
   left: 528px;
@@ -688,30 +562,23 @@ body {
   transition: opacity .2s;
   opacity: 0;
 }
-
 .imgMale_trapsPost:hover {
   opacity: 1;
 }
-
 .flex_Container {
   display: flex;
-  /* min-width: 750px; */
 }
-
 .flex_PaperDoll {
   flex: 4;
 }
-
 .flex_Output {
   flex: 2;
 }
-
 .container {
   min-width: 1500px;
   max-width: 1600px;
   margin: auto;
 }
-
 .desc {
   flex: 2;
   margin-right: 150px;
