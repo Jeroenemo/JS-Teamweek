@@ -107,7 +107,13 @@ body {
   background-color: #648c2b;
 }
 
-
+#unordered>li:hover {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
 /* .btn-outline-success:active {
   color: #fff;
   background-color: #28a745;
