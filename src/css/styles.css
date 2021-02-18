@@ -1,65 +1,676 @@
-img {
+.workout-image {
   width: 25%;
 }
 
-.exercise-description{
+.exercise-description {
   display: none;
 }
 
 .btn {
   width: 30%;
 }
+
 #category-button {
   border-color: #b33742;
   color: #b33742;
 }
+
 #category-button:hover {
   color: white;
   border-color: #b33742;
   background-color: #b33742;
 }
+
 #category-button:focus {
   box-shadow: 0 0 0 0.2rem #b33742;
 }
+
 #category-button:active {
   color: white;
   background-color: #892931;
 }
+
 #muscle-button {
   border-color: #37b39c;
   color: #37b39c;
 }
+
 #muscle-button:hover {
   color: white;
   border-color: #37b39c;
   background-color: #37b39c;
 }
+
 #muscle-button:focus {
   box-shadow: 0 0 0 0.2rem #37b39c;
 }
+
 #muscle-button:active {
   color: white;
   background-color: #2b8c7a;
 }
+
 #hiit-button {
   border-color: #7fb337;
   color: #7fb337;
 }
+
 #hiit-button:hover {
   color: white;
   border-color: #7fb337;
   background-color: #7fb337;
 }
+
 #hiit-button:focus {
   box-shadow: 0 0 0 0.2rem #7fb337;
 }
+
 #hiit-button:active {
   color: white;
   background-color: #648c2b;
 }
+
 
 /* .btn-outline-success:active {
   color: #fff;
   background-color: #28a745;
   border-color: #28a745;
 } */
+
+.output>li:hover {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.imgFemale_glutes {
+  position: absolute;
+  left: 515px;
+  top: 453px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_glutes:hover {
+  opacity: 1;
+}
+
+.imgFemale_upperBack {
+  position: absolute;
+  left: 527px;
+  top: 288px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_upperBack:hover {
+  opacity: 1;
+}
+
+.imgFemale_lowerBack {
+  position: absolute;
+  left: 538px;
+  top: 393px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_lowerBack:hover {
+  opacity: 1;
+}
+
+.imgFemale_obliques_r {
+  position: absolute;
+  left: 188px;
+  top: 341px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_obliques_r:hover {
+  opacity: 1;
+}
+
+.imgFemale_obliques_l {
+  position: absolute;
+  left: 133px;
+  top: 341px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_obliques_l:hover {
+  opacity: 1;
+}
+
+.imgFemale_lats_r {
+  position: absolute;
+  left: 570px;
+  top: 350.5px;
+  transition: opacity .2s;
+  opacity: 0;
+  z-index: 1;
+}
+
+.imgFemale_lats_r:hover {
+  opacity: 1;
+}
+
+.imgFemale_lats_l {
+  position: absolute;
+  left: 523px;
+  top: 350.5px;
+  transition: opacity .2s;
+  opacity: 0;
+  z-index: 1;
+}
+
+.imgFemale_lats_l:hover {
+  opacity: 1;
+}
+
+.imgFemale_bicep_r {
+  position: absolute;
+  left: 233px;
+  top: 338px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_bicep_r:hover {
+  opacity: 1;
+}
+
+.imgFemale_bicep_l {
+  position: absolute;
+  left: 107px;
+  top: 338px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_bicep_l:hover {
+  opacity: 1;
+}
+
+.imgFemale_triceps_r {
+  position: absolute;
+  left: 619px;
+  top: 334px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_triceps_r:hover {
+  opacity: 1;
+}
+
+.imgFemale_triceps_l {
+  position: absolute;
+  left: 485px;
+  top: 334px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_triceps_l:hover {
+  opacity: 1;
+}
+
+.imgFemale_pecs {
+  position: absolute;
+  left: 126.5px;
+  top: 309.5px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_pecs:hover {
+  opacity: 1;
+}
+
+.imgFemale_quads {
+  position: absolute;
+  left: 127px;
+  top: 455.5px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_quads:hover {
+  opacity: 1;
+}
+
+.imgFemale_hams {
+  position: absolute;
+  left: 507.5px;
+  top: 491px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_hams:hover {
+  opacity: 1;
+}
+
+.imgFemale_abs {
+  position: absolute;
+  left: 159px;
+  top: 361px;
+  transition: opacity .2s;
+  opacity: 0;
+  z-index: 1;
+}
+
+.imgFemale_abs:hover {
+  opacity: 1;
+}
+
+.imgFemale_calves {
+  position: absolute;
+  left: 507.5px;
+  top: 617px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_calves:hover {
+  opacity: 1;
+}
+
+.imgFemale_deltoidAnt_r {
+  position: absolute;
+  left: 218px;
+  top: 301px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_deltoidAnt_r:hover {
+  opacity: 1;
+}
+
+.imgFemale_deltoidAnt_l {
+  position: absolute;
+  left: 113px;
+  top: 301px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_deltoidAnt_l:hover {
+  opacity: 1;
+}
+
+.imgFemale_deltoidPost_r {
+  position: absolute;
+  left: 603px;
+  top: 294px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_deltoidPost_r:hover {
+  opacity: 1;
+}
+
+.imgFemale_deltoidPost_l {
+  position: absolute;
+  left: 490px;
+  top: 294px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_deltoidPost_l:hover {
+  opacity: 1;
+}
+
+.imgFemale_trapsAnt {
+  position: absolute;
+  left: 147px;
+  top: 286px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_trapsAnt:hover {
+  opacity: 1;
+}
+
+.imgFemale_trapsPost {
+  position: absolute;
+  left: 533px;
+  top: 275px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgFemale_trapsPost:hover {
+  opacity: 1;
+}
+
+.imgMale_glutes {
+  position: absolute;
+  left: 506px;
+  top: 435px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_glutes:hover {
+  opacity: 1;
+}
+
+.imgMale_upperBack {
+  position: absolute;
+  left: 525px;
+  top: 271.5px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_upperBack:hover {
+  opacity: 1;
+}
+
+.imgMale_lowerBack {
+  position: absolute;
+  left: 531px;
+  top: 376px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_lowerBack:hover {
+  opacity: 1;
+}
+
+.imgMale_obliques_r {
+  position: absolute;
+  left: 197.5px;
+  top: 342px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_obliques_r:hover {
+  opacity: 1;
+}
+
+.imgMale_obliques_l {
+  position: absolute;
+  left: 128px;
+  top: 279px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_obliques_l:hover {
+  opacity: 1;
+}
+
+.imgMale_lats_r {
+  position: absolute;
+  left: 565px;
+  top: 270px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_lats_r:hover {
+  opacity: 1;
+}
+
+.imgMale_lats_l {
+  position: absolute;
+  left: 505px;
+  top: 270px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_lats_l:hover {
+  opacity: 1;
+}
+
+.imgMale_bicep_r {
+  position: absolute;
+  left: 240px;
+  top: 272.5px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_bicep_r:hover {
+  opacity: 1;
+}
+
+.imgMale_bicep_l {
+  position: absolute;
+  left: 91px;
+  top: 273px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_bicep_l:hover {
+  opacity: 1;
+}
+
+.imgMale_triceps_r {
+  position: absolute;
+  left: 623px;
+  top: 258px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_triceps_r:hover {
+  opacity: 1;
+}
+
+.imgMale_triceps_l {
+  position: absolute;
+  left: 460px;
+  top: 258px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_triceps_l:hover {
+  opacity: 1;
+}
+
+.imgMale_pecs {
+  position: absolute;
+  left: 122.5px;
+  top: 236px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_pecs:hover {
+  opacity: 1;
+}
+
+.imgMale_quads_r {
+  position: absolute;
+  left: 190px;
+  top: 380px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_quads_r:hover {
+  opacity: 1;
+}
+
+.imgMale_quads_l {
+  position: absolute;
+  left: 117px;
+  top: 380px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_quads_l:hover {
+  opacity: 1;
+}
+
+.imgMale_hams_r {
+  position: absolute;
+  left: 568.5px;
+  top: 415px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_hams_r:hover {
+  opacity: 1;
+}
+
+.imgMale_hams_l {
+  position: absolute;
+  left: 495px;
+  top: 415px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_hams_l:hover {
+  opacity: 1;
+}
+
+.imgMale_abs {
+  position: absolute;
+  left: 153px;
+  top: 284px;
+  transition: opacity .2s;
+  opacity: 0;
+  z-index: 1;
+}
+
+.imgMale_abs:hover {
+  opacity: 1;
+}
+
+.imgMale_calves_r {
+  position: absolute;
+  left: 603px;
+  top: 537px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_calves_r:hover {
+  opacity: 1;
+}
+
+.imgMale_calves_l {
+  position: absolute;
+  left: 479px;
+  top: 538px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_calves_l:hover {
+  opacity: 1;
+}
+
+.imgMale_deltoidAnt_r {
+  position: absolute;
+  left: 214.5px;
+  top: 229.5px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_deltoidAnt_r:hover {
+  opacity: 1;
+}
+
+.imgMale_deltoidAnt_l {
+  position: absolute;
+  left: 101px;
+  top: 229.5px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_deltoidAnt_l:hover {
+  opacity: 1;
+}
+
+.imgMale_deltoidPost_r {
+  position: absolute;
+  left: 599px;
+  top: 219px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_deltoidPost_r:hover {
+  opacity: 1;
+}
+
+.imgMale_deltoidPost_l {
+  position: absolute;
+  left: 475px;
+  top: 219px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_deltoidPost_l:hover {
+  opacity: 1;
+}
+
+.imgMale_trapsAnt {
+  position: absolute;
+  left: 144px;
+  top: 203px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_trapsAnt:hover {
+  opacity: 1;
+}
+
+.imgMale_trapsPost {
+  position: absolute;
+  left: 528px;
+  top: 190px;
+  transition: opacity .2s;
+  opacity: 0;
+}
+
+.imgMale_trapsPost:hover {
+  opacity: 1;
+}
+
+.flex_Container {
+  display: flex;
+  /* min-width: 750px; */
+}
+
+.flex_PaperDoll {
+  flex: 2;
+}
+
+.flex_Output {
+  flex: 1;
+}
+
+.container {
+  min-width: 1200px;
+}
+
+.desc {
+  flex: 1;
+  margin-right: 50px;
+}
