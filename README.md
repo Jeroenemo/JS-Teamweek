@@ -4,6 +4,8 @@
 ___
 
 ## *Description*:    
+<img src="src/img/rippedMike.jpg" width="200" height="200" />  
+--- 
 ***Don't know where to start your workout journey or tired from using same routine over and over again? Use our workout buddy app to make your training more efficient! Plus you can use in-built HIIT timer as bonus from our development Manager!***
 ### *A web app that allows user to search for exercises based on muscle groups or keywords.  App uses API call to get the list of exercices based on request and then displays them for the user with optional descriptions (available on click).*
 
@@ -31,7 +33,7 @@ You don't need special key to use this application.
 * CSS
 * Java Script
 * JQuery
-* Bootstrap *v4.6.x*
+* Bootstrap *v.4.6.x*
 * Git and GitHub
 * Webpack
 * npm
