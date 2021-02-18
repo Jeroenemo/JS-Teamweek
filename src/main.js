@@ -28,6 +28,7 @@ function getExercises(response) {
 $('form#category-select').submit(function(event) {
   event.preventDefault();
   $('#exercise-header').hide();
+  $('#unordered').html("");
   $('.exercise-description').html("");
   $('#unordered').html("");
   const categoryUrl = `&category=${$('#category').val()}`;
